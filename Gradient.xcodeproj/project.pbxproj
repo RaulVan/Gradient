@@ -27,6 +27,8 @@
 		DE976D3F183D5C6000465566 /* GRDGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE976D3E183D5C6000465566 /* GRDGradientView.m */; };
 		DE976D42183D7AF700465566 /* GRDGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DE976D41183D7AF700465566 /* GRDGradientLayer.m */; };
 		DEEB1FAF18438512007C32DE /* GRDCircularButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEB1FAE18438512007C32DE /* GRDCircularButton.m */; };
+		ED5A9A7E1B9D369A00296223 /* UIImage+WallPaper.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5A9A7D1B9D369A00296223 /* UIImage+WallPaper.m */; };
+		ED5A9A811B9D381D00296223 /* NSString+Encrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5A9A801B9D381D00296223 /* NSString+Encrypt.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B1771F6EC20F01001D0D94C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		5F96C38B5A7CC19D5F9E1A8E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		642817AA22C045CCB46ECED1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAA0C945D57248B88F29AD17 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		DE0A14F0183E131D006114AE /* UIView+Screenshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Screenshot.h"; sourceTree = "<group>"; };
 		DE0A14F1183E131D006114AE /* UIView+Screenshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Screenshot.m"; sourceTree = "<group>"; };
 		DE0AD79C185E6BF1009CC552 /* UIFont+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Additions.h"; sourceTree = "<group>"; };
@@ -72,6 +75,10 @@
 		DE976D41183D7AF700465566 /* GRDGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRDGradientLayer.m; sourceTree = "<group>"; };
 		DEEB1FAD18438512007C32DE /* GRDCircularButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRDCircularButton.h; sourceTree = "<group>"; };
 		DEEB1FAE18438512007C32DE /* GRDCircularButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRDCircularButton.m; sourceTree = "<group>"; };
+		ED5A9A7C1B9D369A00296223 /* UIImage+WallPaper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WallPaper.h"; sourceTree = "<group>"; };
+		ED5A9A7D1B9D369A00296223 /* UIImage+WallPaper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WallPaper.m"; sourceTree = "<group>"; };
+		ED5A9A7F1B9D381D00296223 /* NSString+Encrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Encrypt.h"; sourceTree = "<group>"; };
+		ED5A9A801B9D381D00296223 /* NSString+Encrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Encrypt.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +106,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A9B320C9A41EBFE05E9E3877 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F96C38B5A7CC19D5F9E1A8E /* Pods.debug.xcconfig */,
+				0B1771F6EC20F01001D0D94C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DE6620E4184D045B00482678 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,7 +131,7 @@
 				DE976D28183D5AF500465566 /* GradientTests */,
 				DE976D02183D5AF500465566 /* Frameworks */,
 				DE976D01183D5AF500465566 /* Products */,
-				AAA0C945D57248B88F29AD17 /* Pods.xcconfig */,
+				A9B320C9A41EBFE05E9E3877 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -194,6 +210,10 @@
 				DE0A14F1183E131D006114AE /* UIView+Screenshot.m */,
 				DE0AD79C185E6BF1009CC552 /* UIFont+Additions.h */,
 				DE0AD79D185E6BF1009CC552 /* UIFont+Additions.m */,
+				ED5A9A7C1B9D369A00296223 /* UIImage+WallPaper.h */,
+				ED5A9A7D1B9D369A00296223 /* UIImage+WallPaper.m */,
+				ED5A9A7F1B9D381D00296223 /* NSString+Encrypt.h */,
+				ED5A9A801B9D381D00296223 /* NSString+Encrypt.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -261,7 +281,7 @@
 				ORGANIZATIONNAME = "Alexander Edge";
 				TargetAttributes = {
 					DE976CFF183D5AF500465566 = {
-						DevelopmentTeam = Z83LTUE2RD;
+						DevelopmentTeam = 23TGM9M3SY;
 					};
 					DE976D20183D5AF500465566 = {
 						TestTargetID = DE976CFF183D5AF500465566;
@@ -323,7 +343,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DCE40A7D0418417D954B082C /* Check Pods Manifest.lock */ = {
@@ -364,6 +384,8 @@
 			files = (
 				DE976D14183D5AF500465566 /* GRDAppDelegate.m in Sources */,
 				DEEB1FAF18438512007C32DE /* GRDCircularButton.m in Sources */,
+				ED5A9A7E1B9D369A00296223 /* UIImage+WallPaper.m in Sources */,
+				ED5A9A811B9D381D00296223 /* NSString+Encrypt.m in Sources */,
 				DE0AD79E185E6BF1009CC552 /* UIFont+Additions.m in Sources */,
 				DE0A14F2183E131D006114AE /* UIView+Screenshot.m in Sources */,
 				DE976D3B183D5B1500465566 /* UIColor+Additions.m in Sources */,
@@ -486,17 +508,19 @@
 		};
 		DE976D33183D5AF500465566 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AAA0C945D57248B88F29AD17 /* Pods.xcconfig */;
+			baseConfigurationReference = 5F96C38B5A7CC19D5F9E1A8E /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Alexander Edge (94BB955JKM)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Gradient/Gradient-Prefix.pch";
 				INFOPLIST_FILE = "Gradient/Gradient-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.shage.Gradient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "1E7DA914-3C98-499E-A09E-78291EE5E59A";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -504,17 +528,19 @@
 		};
 		DE976D34183D5AF500465566 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AAA0C945D57248B88F29AD17 /* Pods.xcconfig */;
+			baseConfigurationReference = 0B1771F6EC20F01001D0D94C /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Nitzan Hermon (N37XJJBN6C)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Gradient/Gradient-Prefix.pch";
 				INFOPLIST_FILE = "Gradient/Gradient-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.shage.Gradient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "BDAEC847-29EF-4223-80FD-47BD239269B1";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};

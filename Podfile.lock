@@ -1,7 +1,7 @@
 PODS:
   - CocoaLumberjack (1.6.3):
-    - CocoaLumberjack/Core
-    - CocoaLumberjack/Extensions
+    - CocoaLumberjack/Core (= 1.6.3)
+    - CocoaLumberjack/Extensions (= 1.6.3)
   - CocoaLumberjack/Core (1.6.3)
   - CocoaLumberjack/Extensions (1.6.3):
     - CocoaLumberjack/Core
@@ -12,7 +12,7 @@ DEPENDENCIES:
   - HockeySDK
 
 SPEC CHECKSUMS:
-  CocoaLumberjack: d62b2c37c8bdac37094d710bfa978eb6e2fe650e
-  HockeySDK: 685e6ca0b78668ef8b595fba17fe087ea6074b05
+  CocoaLumberjack: 79086d1841c6c61383afa50cafc8883b7f44f63c
+  HockeySDK: 9c50c596a51a015a8e5073252340a36d3047a126
 
-COCOAPODS: 0.29.0
+COCOAPODS: 0.37.2

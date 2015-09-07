@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3E7404AFCDB9ADBB9F392F1D8B80E09B77EE40FC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3E7404AFCDB9ADBB9F392F1D8B80E09B77EE40FC" : 0,
+    "30E99B3DA956813EC660FA509C3BB663EF95A334" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5C484D79-AC3F-4E3E-8717-CA4FBBD8EC34",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3E7404AFCDB9ADBB9F392F1D8B80E09B77EE40FC" : "Gradient\/",
+    "30E99B3DA956813EC660FA509C3BB663EF95A334" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Gradient",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Gradient.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/RaulVan\/iOSDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "30E99B3DA956813EC660FA509C3BB663EF95A334"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/RaulVan\/Gradient.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3E7404AFCDB9ADBB9F392F1D8B80E09B77EE40FC"
+    }
+  ]
+}

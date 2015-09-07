@@ -11,6 +11,7 @@
 #import "UIView+Screenshot.h"
 #import "UIFont+Additions.h"
 #import "GRDCircularButton.h"
+#import "UIImage+WallPaper.h"
 
 @import AudioToolbox;
 @import AssetsLibrary;
@@ -285,7 +286,10 @@ static CGFloat GRDRandomZoomScale(){
     DDLogInfo(@"Tapping!");
     if (!_savingIndicator && !_creditsTextView) {
         UIImage *gradient = [self.view grd_screenshot];
-        UIImageWriteToSavedPhotosAlbum(gradient, self, @selector(image:didFinishSavingWithError:contextInfo:), NULL);
+        
+        [gradient _saveAsHomeScreen];//Setting Wallpaper
+        
+//        UIImageWriteToSavedPhotosAlbum(gradient, self, @selector(image:didFinishSavingWithError:contextInfo:), NULL);
         [self showInfoButton];
         [self showShareButtonWithHandler:^{
             UIActivityViewController *vc = [[UIActivityViewController alloc] initWithActivityItems:@[gradient,@"#gradient"] applicationActivities:nil];
